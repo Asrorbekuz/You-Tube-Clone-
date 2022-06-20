@@ -1,0 +1,93 @@
+body{
+    background-color: #181818;
+    overflow-x:hidden ;
+    padding:10px;
+}
+.header{
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+   padding-bottom: 20px;
+}
+
+ .logoBrand{
+    width: 150px;
+ }
+
+ input{
+    width: 50%;
+    background-color: #121212;
+    padding:15px;
+    border:none;
+    font-size: 15px;
+    color: #fff;
+    outline: none;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+ }
+
+ .profile{
+    margin-left: 20px;
+
+ }
+ .profile > img{
+    width: 40px;
+    border-radius:50px;
+ }
+
+ .videoInfo >  .videoTitle, .channelTitle{
+    color: #fff !important;
+    font-family: system-ui;
+    margin-top: 25px;
+ }
+
+ .videoDescription{
+    margin-top: 25px;
+    color: rgb(216, 213, 213);
+    font-family: system-ui;
+    width: 75%;
+ }
+
+ .videoItems{
+    display: inline-block;
+    cursor: pointer;
+    padding:0  0 15px ;
+    width: 350px;
+ }
+
+ .functions{
+    cursor:pointer;
+ }
+
+ .noResult{
+    color: #fff;
+    font-family:monospace;
+    font-size:20px;
+ }
+ .videoMain{
+    display: flex;
+    justify-content: space-around;
+ }
+
+ iframe{
+    width: 850px;
+    height: 500px;
+ }
+
+ .videoSec{
+    margin-left: 20px;
+    padding: 0 20px;
+ }
+ .videoLists > div{
+    float: right;
+    width: 80%;
+ }
+
+ .searchSec{
+    margin: 20px;
+ }
+
+ .titleVideo{
+    font-size: 16px;
+    color: #fff;
+    margin: 10px 0;
+ }
